@@ -1,0 +1,85 @@
+/* JobList.css */
+.job-list-container {
+  padding: 20px;
+  background-color:#f0f0f0;
+}
+
+
+
+/* Header Styling */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* For positioning search bar */
+  padding: 10px 0;
+}
+
+.logo {
+  height: 100px; /* Adjust logo size */
+ 
+  border-radius: 50px;
+}
+
+.page-heading {
+  margin: 0 auto;
+  
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 600px;
+}
+
+
+
+
+.job-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between job cards */
+  margin-top: 20px;
+}
+
+.job-card {
+  width: 18rem;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.job-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.apply-button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+.job-card {
+  position: relative;
+  padding-top: 60px; /* Adjust depending on logo size */
+}
+
+.job-logo-container {
+  position: absolute;
+  top: -40px; /* Adjust depending on logo size */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px; /* Adjust size as needed */
+  height: 80px; /* Adjust size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #f8f9fa; /* Optional background for logo */
+}
+
+.job-logo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* Makes the logo round */
+}
+

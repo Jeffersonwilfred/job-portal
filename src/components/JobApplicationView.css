@@ -1,0 +1,139 @@
+/* JobApplicationView.css */
+
+/* Modal container */
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+/* Modal header */
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Modal body */
+.modal-body {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+/* Job title */
+.modal-body h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* Company and experience details */
+.modal-body p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+/* Skills badges */
+.badge {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.badge.bg-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* About Me section */
+.modal-body strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #343a40;
+  font-weight: 600;
+}
+
+.modal-body p {
+  margin-bottom: 15px;
+}
+
+.modal-body .about-me p {
+  font-style: italic;
+}
+
+/* Form data section */
+.modal-body .form-data p {
+  font-size: 16px;
+  color: #495057;
+}
+.secondary_button{
+  background-color: #007bff;
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .modal-body h1 {
+    font-size: 20px;
+  }
+
+  .modal-body p {
+    font-size: 14px;
+  }
+
+  .badge {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .modal-footer .btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+/* Modal footer */
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+    padding-top: 15px;
+    justify-content: center;
+  }
+  
+ /* Modal footer */
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+    padding-top: 15px;
+    justify-content: center;
+  }
+  
+  /* Style for all buttons in the modal footer */
+  .btn {
+    background-color: #15ee73; /* Blue color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #28a745; /* Green color on hover */
+    border-color: #28a745; /* Green border on hover */
+}
+
+  /* Button spacing */
+  .modal-footer .btn + .btn {
+    margin-left: 10px;
+  }
+  
+  
